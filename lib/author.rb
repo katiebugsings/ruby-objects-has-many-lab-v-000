@@ -6,7 +6,7 @@ def initialize(name)
   @posts = []
   end
 
-  def add_post
+  def add_post(post)
     @posts << post
     @@post_count += 1
     post.author = self
