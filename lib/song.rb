@@ -10,6 +10,6 @@ class Song
     artist.name
     if artist
    artist.name
-
+    end
   end
 end
