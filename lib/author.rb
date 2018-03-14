@@ -8,14 +8,12 @@ def initialize(name)
 
   def add_post(post)
     @posts << post
-    @@post_count += 1
     post.author = self
   end
 
     def post_by_title(title)
       post = Post.new(title)
       @posts << post
-      @@post_count += 1
       post.author = self
     end
 
