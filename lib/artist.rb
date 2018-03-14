@@ -20,6 +20,7 @@ end
 
 def self.song_count
   @@song_count
+    song.artist = self += 1
 end
 
 def songs
