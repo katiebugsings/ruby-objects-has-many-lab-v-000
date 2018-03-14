@@ -11,7 +11,7 @@ def initialize(name)
     post.author = self
   end
 
-    def post_by_title(title)
+    def add_post_by_title(title)
       post = Post.new(title)
       @posts << post
       post.author = self
